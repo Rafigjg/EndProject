@@ -1,0 +1,5 @@
+@mixin setTransition($property,$time) {
+  -webkit-transition: $property $time;
+  -ms-transition: $property $time;
+  transition: $property $time;
+}
